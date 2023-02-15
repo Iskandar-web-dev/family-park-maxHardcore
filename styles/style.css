@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Steppe;
+}
+ 
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 2000px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110.5%;
+}
+
+header a:nth-child(1) {
+    color: #7878FF;
+}
+header {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.left {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.left img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 16px;
+
+}
+.right img:nth-child(1) {
+    width: 26px;
+    height: 26px;
+}
+
+.right img:nth-child(2) {
+    width: 28px;
+    height: 28px;
+}
+
+.right img:nth-child(3) {
+    width: 15px;
+    height: 26px;
+}
+
+.right img:nth-child(4) {
+    width: 28px;
+    height: 21px;
+}
+
+.right img:nth-child(5) {
+    width: 24px;
+    height: 26px;
+}
+
+.right  .menu img {
+    width: 39px;
+    height: 13px;
+}
+.menu {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+ .line {
+    margin-left: 250px;
+    margin-top: 25px;
+ }
+ .tickets-price {
+    width: 60%;
+    max-width: 1920px;
+    margin: 46px auto;
+  
+ }
+ .add {
+    width: 186px;
+    height: 71px;
+    background: #ECBA09;
+    border-radius: 15px;
+    font-size: 8px;
+    padding: 10px;
+   
+ }
+.mainp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.price {
+    margin-left: 250px;
+    margin-top: -65px;
+
+}
+.price-block {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 800px;
+  
+
+}
+.price-block div  {
+    width: 129px;
+    height: 39px;
+    text-align: center;
+   
+}
+.price-block div p  {
+   color: #FFFF;
+   margin-top: 11px;
+}
+
+
+.item1  {
+background: #0DABC0;
+border-radius: 53px 0px 0px 53px;
+  
+}
+
+.item2  {
+    background: #BD1550;
+    margin-left: -20px;
+}
+
+.item3  {
+    background: #ECBA09;
+    margin-left: -20px;
+}
+
+.item4  {
+    background: #11766D;
+   
+}
+
+.item5  {
+    background: #0DABC0;
+    border-radius: 0px 53px 53px 0px; 
+    margin-left: -20px;
+    margin-right: 80px;
+}
+.places {
+width: 50%; 
+max-width: 800px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+/* .one {
+    
+}
+.two {
+  
+    
+}
+.three {
+    
+    margin-right: 750px;
+} */
+.eighteen {
+    margin-right: 600px;
+}
+.el {
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    margin-top: 10px ;
+    background: #878787;
+    justify-content: space-between;
+  
+    
+}
